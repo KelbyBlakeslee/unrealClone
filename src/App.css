@@ -1,0 +1,20 @@
+/* .Navbar {
+    background-color: #2a2a2a;
+    color: rgb(85, 25, 182);
+    overflow: hidden;
+    height: 63px;
+    text-align: center;
+} */
+
+.slick-dots {
+    position: relative !important;
+    bottom: 35px !important;
+    z-index: 10;
+    color: white;
+    font-size: 10px;
+}
+
+.slick-dots li button:before {
+    color: #fff !important;
+    font-size: 10px !important;
+}

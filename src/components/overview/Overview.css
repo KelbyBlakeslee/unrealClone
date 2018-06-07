@@ -1,0 +1,410 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+/* .video-container {
+    position: absolute;
+    right: calc((100vw - 711px) / 2);
+}
+
+.video {
+ height: 400px;
+ width: 711px;
+} */
+
+.whole-page {
+   background: #fff5f4;
+}
+
+
+.carousel-1 {
+    background-image: url('https://cdn2.unrealengine.com/ueOverview%2FtabletImages%2Fbots-min-1200x675-33f6ba52b54f1008121629f4b6f8df47f463bea6.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 400px;
+}
+
+.top-slider {
+    position: absolute;
+    z-index: 10;
+    height: 400px;
+}
+
+ .top-slider > h1 {
+    padding-top: 120px;
+    padding-left: 25px;
+    color: #fff;
+    font-family: Brutal,sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.top-slider > h2 {
+    color: #fff;
+    padding-left: 25px;
+    font-family: Brutal,sans-serif;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 500;
+}
+
+.get-started-button-parent {
+    display: flex;
+    justify-content: center;
+    padding-left: 25px;
+}
+
+.get-started-button {
+    background: #1ac6ff;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 2px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    margin-top: 10px;
+    outline: none;
+    text-transform: uppercase;
+}
+
+.carousel-2 {
+    background-image: url("https://cdn2.unrealengine.com/ueOverview%2FTopCarousel%2FdaysGone-min-1900x779-9b7f24c51a7f98935449ade69f897745b6e69f28.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 400px;
+}
+
+.carousel-3 {
+    background-image: url("https://cdn2.unrealengine.com/ueOverview%2FTopCarousel%2FdeadByDaylight-min-1900x779-f9da801e068b47429a66497abc3f0980ef1d1c36.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 400px;
+}
+
+.carousel-4 {
+    background-image: url("https://cdn2.unrealengine.com/ueOverview%2FTopCarousel%2FFTM_v3-min-1885x779-46614b45eb0295c264931452a9e04e2c16870094.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 400px;
+}
+
+.batman-1 {
+    background-image: url("https://cdn2.unrealengine.com/ueOverview%2FwhyUE%2Fbatman-min-1792x836-9912e54c8cb59fc5294774b6ad2441c4f819d8f5.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 192px;
+}
+
+.astroneer-2 {
+    background-image: url("https://cdn2.unrealengine.com/ueOverview%2FwhyUE%2Fastroneer-min-1792x836-1bad5911f50b998d77a4eeb3c76b08b5a7658c05.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 192px;
+}
+
+.Abzu-1 {
+    background-image: url("https://cdn2.unrealengine.com/ueOverview%2FwhyUE%2FGroup-2-min-1920x971-67a86e88a7f30a5f5532e4394e3561a929bc97fe.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 192px;
+}
+
+.paragon-1 {
+    background-image: url("https://cdn2.unrealengine.com/ueOverview%2FwhyUE%2FGroup-1-min-1920x971-0bf47f406298ef3055a8433b121cf8e1bb18a4a4.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 192px;
+}
+
+.text-below-batman {
+    text-align: center;
+    background: #fff5f4;
+    height: 100%;
+}
+
+.text-below-batman > h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+.text-below-astroneer {
+    text-align: center;
+    background: #fff5f4;
+    height: 100%;
+}
+
+.text-below-astroneer > h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+.text-below-abzu {
+    text-align: center;
+    background: #fff5f4;
+    height: 100%;
+}
+
+.text-below-abzu {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100; 
+}
+
+.text-below-paragon {
+    text-align: center;
+    background: #fff5f4;
+    height: 100%;
+}
+
+.text-below-paragon > h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+.carousel3-slide1 {
+    background-image: url("https://cdn2.unrealengine.com/ueOverview%2Ffeatures%2Ffeatures-slide1v8-min-1920x836-799ebc45fb707b4c3406a6db77d5d1f4eb782f63.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 192px;
+}
+
+.text-below-car3-slide1 {
+    text-align: center;
+    background: #fff5f4;
+    height: 100%;
+}
+
+.text-below-car3-slide1 > h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+.carousel3-slide2 {
+    background-image: url("https://cdn2.unrealengine.com/ueOverview%2Ffeatures%2Ffeature-2-min-1792x836-7d17ad0729a2ef7d234181ca0c0d857b3d5a19ed.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 192px;
+}
+
+.text-below-car3-slide2 {
+    text-align: center;
+    background: #fff5f4;
+    height: 100%;
+}
+
+.text-below-car3-slide2 > h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+.carousel3-slide3 {
+    background-image: url("https://cdn2.unrealengine.com/ueOverview%2Ffeatures%2Ffeature-3-min-1792x836-0c386308dd7c424ff8c9e52a5aed6afaf798dc69.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 192px;
+}
+
+.text-below-car3-slide3 {
+    text-align: center;
+    background: #fff5f4;
+    height: 100%;
+}
+
+.text-below-car3-slide3 > h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+.carousel3-slide4 {
+    background-image: url("https://cdn2.unrealengine.com/ueOverview%2FnewAssets%2Ffeatures-slide4-min-1920x836-d8ec864aa82ffa57dcd72882a2c4b9b6f6f132a7.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 192px;
+}
+
+.text-below-car3-slide4 {
+    text-align: center;
+    background: #fff5f4;
+    height: 100%;
+}
+
+.text-below-car3-slide4 > h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+.carousel3-slide5 {
+    background-image: url("https://cdn2.unrealengine.com/ueOverview%2FnewAssets%2FPersona2-min-1792x836-90c2b6654da50a2b17fe492a64cb229168d2a618.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 192px;
+}
+
+.text-below-car3-slide5 {
+    text-align: center;
+    background: #fff5f4;
+    height: 100%;
+}
+
+.text-below-car3-slide5 > h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+.carousel3-slide6 {
+    background-image: url("https://cdn2.unrealengine.com/ueOverview%2FnewAssets%2Ffeatures_slide6v5-min-1920x836-e2693b985ad8ca2ddd86ed01d3ca83b13a192107.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 192px;
+}
+
+.text-below-car3-slide6 {
+    text-align: center;
+    background: #fff5f4;
+    height: 100%;
+}
+
+.text-below-car3-slide6 > h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+.carousel3-slide7 {
+    background-image: url("https://cdn2.unrealengine.com/ueOverview%2FnewAssets%2Fmarketplace2-min-1792x836-c55ccd6012fc8b4285af7493686954fb1b0353a7.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 192px;
+}
+
+.text-below-car3-slide7 {
+    text-align: center;
+    background: #fff5f4;
+    height: 100%;
+}
+
+.text-below-car3-slide7 > h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+.car-photo {
+    background-image: url("https://cdn2.unrealengine.com/Unreal+Engine%2FThe-HRThe-Mill-img3-1920x1080-d568d3cc993ee12647eb8709b7c2c253cf8d4a73.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 192px;
+}
+
+.text-below-car-photo {
+    text-align: center;
+    background: #fff5f4;
+    height: 100%;
+}
+
+.text-below-car-photo > h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+.find-out-more {
+    background: #1ac6ff;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 2px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    margin-top: 10px;
+    outline: none;
+    text-transform: uppercase;
+}
+
+.platform-support-photo {
+    margin-top: 10px;
+    background-image: url("https://cdn2.unrealengine.com/ueOverview%2FnewAssets%2Fgamesection_V6-min-1920x1080-9ee4207f391c7e5e3d264cf81552b706c202f830.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 192px;
+}
+
+.text-below-support-photo {
+    text-align: center;
+    background: #fff5f4;
+    height: 100%;
+}
+
+.text-below-support-photo > h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+.section-of-logos {
+    background: #fff;
+}
+
+.logo-row-1 {
+ display: flex;
+ justify-content: center;
+ justify-content: space-around;
+ align-items: center;
+ width: 100vw;
+}
+
+.ps4-logo {
+    width: 92px;
+    height: 85px;
+}
+
+.xbox-one-logo {
+    width: 92px;
+    height: 77px;
+}
+
+.nintendo-switch-logo {
+    width: 71px;
+    height: 128px;
+}
+
+.logo-row-2 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+
+.logo-row-3 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+
+.playstation-VR {
+    width: 92px;
+    height: 61px;
+}
+
+.logo-row-4 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}

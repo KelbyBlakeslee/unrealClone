@@ -1,0 +1,38 @@
+{
+  "name": "my-personal-project",
+  "version": "0.1.0",
+  "main": "./server/index.js",
+  "proxy": "http://localhost:3006",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "massive": "^4.8.2",
+    "passport": "^0.4.0",
+    "passport-auth0": "^0.6.1",
+    "react": "^16.4.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.4.0",
+    "react-redux": "^5.0.7",
+    "react-responsive-carousel": "^3.1.39",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "react-slick": "^0.23.1",
+    "react-stripe-checkout": "^2.6.3",
+    "react-stripe-elements": "^2.0.0",
+    "redux": "^4.0.0",
+    "redux-promise-middleware": "^5.1.1",
+    "slick-carousel": "^1.8.1",
+    "stripe": "^6.1.0",
+    "video-react": "^0.10.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

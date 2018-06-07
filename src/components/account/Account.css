@@ -1,0 +1,72 @@
+.wholePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2a2a2a;
+    color: #1ac6ff;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main {
+    text-align: center;
+    font-family: 'Squada One', cursive;
+}
+
+.profile-pic {
+    font-family: 'Squada One', cursive;
+}
+
+.image-placeholder {
+    width: 80%;
+    border-radius: 5px 20px 5px;
+}
+
+.Username {
+    text-align: center;
+    color: #1ac6ff;
+    font-family: 'Squada One', cursive;
+}
+
+.userBox {
+    display: block;
+}
+
+.username-box {
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.Bio {
+    text-align: center;
+    color: #1ac6ff;
+    font-family: 'Squada One', cursive;
+}
+
+.bioBox {
+    display: block;
+}
+
+.bio-box {
+    text-align: center;
+    height: 80px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.subButton {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.submitButton {
+    border-color: #1ac6ff;
+    background: #1ac6ff;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'Squada One', cursive;
+    height: 50px;
+    margin-top: 20px;
+}
